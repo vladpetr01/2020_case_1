@@ -1,8 +1,8 @@
 import turtle as tl
 import math
 # Petrov V.A. 70%
-#
-#
+# Udachev N.V. 40%
+# Kuleshov R.A.
 
 drawing_area = tl.Screen()
 drawing_area.setup(width=1280, height=720)
