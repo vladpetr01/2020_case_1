@@ -170,7 +170,7 @@ def helicopter():
     triangle(375, 150, 200, 'red')
     tl.right(45)
     parallelogram(275, 250, 100, 'green')
-    triangle(200, 330, 140, 'skyblue')
+    triangle(200, 320, 140, 'skyblue')
 
 
 def rocket():
