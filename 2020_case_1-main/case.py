@@ -1,8 +1,9 @@
+#Case-study #1
+# Developers:   Petrov V.A. 70%
+#               Udachev N.V. 40%
+#               Kuleshov R.A. 30%
 import turtle as tl
 import math
-# Petrov V.A. 70%
-# Udachev N.V. 40%
-# Kuleshov R.A. 30%
 
 drawing_area = tl.Screen()
 drawing_area.setup(width=1280, height=720)
