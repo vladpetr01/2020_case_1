@@ -85,4 +85,6 @@ def cock():
     parallelogram(-100, -27, 85, 'green')
     tl.right(90)
     triangle((200*math.sqrt(2)/2)-21, (200*math.sqrt(2)/2)-20, 100, 'pink')
+    tl.right(225)
+    triangle(-10+200*math.sqrt(2)/4,(-200*math.sqrt(2)/2)+60, 100, 'purple')
 tl.done()
