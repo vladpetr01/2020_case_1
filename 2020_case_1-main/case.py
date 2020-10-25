@@ -1,7 +1,5 @@
 import turtle as tl
 import math
-
-
 def triangle(x, y, z, color):
     tl.up()
     tl.goto(x, y)
@@ -15,5 +13,34 @@ def triangle(x, y, z, color):
     tl.left(135)
     tl.fd(z * math.sqrt(2) / 2)
     tl.end_fill()
-    
+def square(x, y, z, color):
+    tl.up()
+    tl.goto(x, y)
+    tl.down()
+    tl.color(color)
+    tl.begin_fill()
+    tl.fd(z)
+    tl.right(90)
+    tl.fd(z)
+    tl.right(90)
+    tl.fd(z)
+    tl.right(90)
+    tl.fd(z)
+    tl.right(90)
+    tl.end_fill()
+def parallelogram(x, y, z, color):
+     tl.up()
+     tl.goto(x, y)
+     tl.down()
+     tl.color(color)
+     tl.begin_fill()
+     tl.left(45)
+     tl.fd(z * math.sqrt(2) / 2)
+     tl.right(45)
+     tl.fd(z)
+     tl.right(135)
+     tl.fd(z * math.sqrt(2) / 2)
+     tl.right(45)
+     tl.fd(z)
+     tl.end_fill()
 tl.done()
